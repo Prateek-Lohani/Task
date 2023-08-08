@@ -30,7 +30,7 @@ radioBtn.forEach((radioButton, index) => {
         <select>
           <option value="colour" disabled selected>Colour</option>
           <option class="navy">Navy</option>
-          <option class="green">Green</option>
+          <option class="violet">Violet</option>
         </select>
        </td>
        </tr>
@@ -47,7 +47,7 @@ radioBtn.forEach((radioButton, index) => {
               <select>
                 <option value="colour" disabled selected>Colour</option>
                 <option class="navy">Navy</option>
-                <option class="green">Green</option>
+                <option class="violet">Violet</option>
               </select>
             </td>
           </tr>
