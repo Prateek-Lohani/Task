@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <article>
+    <section class="main-container">
+      <header>
+        <p><span><strong>Bundle & Save</strong></span></p>
+      </header>
+    </section>
+    <div>
+      <section class="price-card">
+        <table>
+          <tr class="row-top">
+            <td></td>
+            <td colspan="2">1 Pair</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="radio" class="radio-button" /></td>
+            <td class="price">DKK 195.00</td>
+            <td class="discount"><strike>DKK 390.00</strike></td>
+            <td>50% OFF</td>
+          </tr>
+        </table>
+        <table class="tableRenderJs"></table>
+      </section>
+      <section class="price-card active" id="price-card">
+        <table>
+          <tr class="row-top">
+            <td></td>
+            <td colspan="2">2 Pair</td>
+            <td class="popular">Most Popular</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" name="radio" class="radio-button" checked />
+            </td>
+            <td class="price">DKK 345.00</td>
+            <td class="discount"><strike>DKK 780.00</strike></td>
+            <td>40% OFF</td>
+          </tr>
+        </table>
+        <table class="tableRenderJs">
+          <tr>
+            <td></td>
+            <td>Size</td>
+            <td>Colour</td>
+          </tr>
+          <tr>
+            <td>#1</td>
+            <td>
+              <select>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+            </td>
+            <td>
+              <select>
+                <option value="colour" disabled selected>Colour</option>
+                <option class="navy">Navy</option>
+                <option class="green">Green</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>#2</td>
+            <td>
+              <select>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+            </td>
+            <td>
+              <select>
+                <option value="colour" disabled selected>Colour</option>
+                <option class="navy">Navy</option>
+                <option class="green">Green</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class="price-card">
+        <table>
+          <tr class="row-top">
+            <td></td>
+            <td colspan="2">3 Pair</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="radio" class="radio-button" /></td>
+            <td class="price">DKK 528.00</td>
+            <td class="discount"><strike>DKK 1170.00</strike></td>
+            <td>60% OFF</td>
+          </tr>
+        </table>
+        <table class="tableRenderJs"></table>
+      </section>
+
+      <div class="shipping">
+        <p >Free 2 Day Shipping</p>
+        <p id="total">Total : DKK 345.00</p>
+      </div>
+
+      <button onclick="addToCart()" class="addToCart">+ Add to Cart</button>
+      <footer>&copy; Powered By Pumper</footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </article>
+  </body>
+</html>

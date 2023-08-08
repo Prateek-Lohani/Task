@@ -1,0 +1,166 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  text-align: center;
+  color: #007f61;
+  font-size: 0.9rem;
+  font-family: Metropolis;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+p span {
+  position: relative;
+}
+
+p span:before,
+p span:after {
+  border-top: 0.5px solid #c8c8c8;
+  content: "";
+  position: absolute;
+  top: 50%;
+}
+
+p span:before {
+  left: -8vw;
+  width: 7vw;
+}
+
+p span:after {
+  right: -8vw;
+  width: 7vw;
+}
+
+.navy {
+  background-color: navy;
+  color:white;
+}
+
+.green {
+  background-color: green;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="radio"] {
+  margin-right: 0.2rem;
+  accent-color: #007f61;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+tr,
+td {
+  padding: 0.5rem;
+}
+
+.discount {
+  font-size: 0.6rem;
+  color: #9f9f9f;
+}
+
+.price-card {
+  border-radius: 0.22594rem;
+  border: 0.904px solid #c8c8c8;
+  background: #fff;
+  display: block;
+  padding: 1.2rem 1.3rem;
+  width: 20rem;
+  margin-bottom: 0.9rem;
+}
+
+.active,
+.price-card:hover {
+  background-color: #dad9d9;
+}
+
+.active {
+  border-color: #007f61;
+  border-width: 0.11rem;
+}
+
+.price-card:hover,
+.addToCart:hover {
+  cursor: pointer;
+}
+
+.addToCart:hover {
+  background-color: #025542;
+}
+
+.popular {
+  color: #007f61;
+  font-family: Inter;
+  font-size: 0.79081rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+td {
+  color: #000;
+  font-size: 0.90381rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.toggler {
+  margin-left: 0.6rem;
+}
+
+td {
+  padding-bottom: 0.2rem;
+  padding-top: 0.2rem;
+}
+
+.shipping {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 22rem;
+}
+
+.shipping p {
+  margin-top: 0;
+}
+
+.left {
+  opacity: 0.6;
+  font-family: Inter;
+}
+.right {
+  font-weight: 600;
+  color: black;
+  font-family: Inter;
+}
+
+button {
+  width: 22rem;
+  padding: 1rem;
+  background-color: #007f61;
+  color: #ffffff;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.toggle {
+  display: none;
+}
+
+footer {
+padding-left:12rem;
+font-size: 0.7em;
+}
